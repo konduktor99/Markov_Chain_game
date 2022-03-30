@@ -1,0 +1,12 @@
+|TARGET SCORE: 2|
+
+(1) -- CPU's choice: rock, User's choice: paper -- CPU: -1, User: 1
+(2) -- CPU's choice: rock, User's choice: scissors -- CPU: 0, User: 0
+(3) -- CPU's choice: paper, User's choice: paper -- CPU: 0, User: 0
+(4) -- CPU's choice: scissors, User's choice: scissors -- CPU: 0, User: 0
+(5) -- CPU's choice: scissors, User's choice: paper -- CPU: 1, User: -1
+(6) -- CPU's choice: rock, User's choice: scissors -- CPU: 2, User: -2
+(7) -- CPU's choice: scissors, User's choice: paper -- CPU: 3, User: -3
+(8) -- CPU's choice: rock, User's choice: scissors -- CPU: 4, User: -4
+(9) -- CPU's choice: scissors, User's choice: paper -- CPU: 5, User: -5
+CPU WINS

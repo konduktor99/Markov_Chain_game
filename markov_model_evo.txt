@@ -1,0 +1,660 @@
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: paper_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    1    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    1    1    1    1    1    1    1    2
+p_s    1    1    1    1    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    1    1    1    1    1
+s_s    1    1    1    1    1    1    1    1    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    1    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    1    1    1    1    1    1    1    2
+p_s    1    1    1    1    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    1    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: scissors_paper --> paper_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    1    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    1    1    1    1    1    1    1    2
+p_s    1    1    1    1    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: paper_paper --> rock_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    1    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    1    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: rock_paper --> paper_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    1    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: paper_scissors --> paper_rock
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    1
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: paper_rock --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    1    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_scissors --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    1    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: rock_scissors --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    2    1    1    1    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: rock_scissors --> paper_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    1    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: paper_scissors --> paper_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    2    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: paper_scissors --> paper_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    1    1    2    1    3    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: paper_scissors --> rock_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    2    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: rock_paper --> paper_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    1    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: paper_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    1
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    2
+s_s    1    1    2    1    1    1    1    2    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    2
+s_s    1    1    2    1    1    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    3
+s_s    1    1    2    1    1    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: scissors_scissors --> paper_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    1    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    3
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: paper_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    1    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    3
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    2    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    1    1    2    1    1    1    3
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    2    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    3
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    3
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    1    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_scissors --> rock_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    1    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: rock_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    1
+r_s    1    1    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: rock_scissors --> rock_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    1
+r_s    1    2    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    3    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    2    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    4    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    1    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    3    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    4    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: rock_scissors --> paper_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    2    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    2
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    3    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    4    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: paper_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    2    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    3
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    3    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    4    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    2    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    3
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    3    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    5    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    2    2    1    3    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    3
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    4    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    5    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r    1    1    1    1    1    1    1    1    1
+r_p    1    1    2    1    1    3    1    1    2
+r_s    1    2    2    1    2    2    1    4    1
+p_r    1    1    1    1    1    1    1    1    2
+p_p    1    2    2    1    1    1    1    1    3
+p_s    1    2    1    2    1    3    1    2    1
+s_r    1    1    1    1    1    1    1    1    1
+s_p    1    1    4    1    2    1    1    1    4
+s_s    1    2    2    1    2    1    1    5    1
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  2.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  2.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  3.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  4.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  5.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: rock_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  2.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  3.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  4.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  5.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: rock
+Actual situation: rock_scissors --> paper_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  3.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  4.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  5.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: paper_paper --> scissors_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  4.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  5.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: scissors_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  4.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  6.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  4.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  5.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  6.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  5.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  5.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  6.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: scissors
+Actual situation: scissors_paper --> rock_scissors
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  5.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  6.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  6.0  1.0
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Choice expected by algorithm: paper
+Actual situation: rock_scissors --> scissors_paper
+Numerators matrix after probability adjustment: 
+     r_r  r_p  r_s  p_r  p_p  p_s  s_r  s_p  s_s
+r_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+r_p  1.0  1.0  3.0  1.0  1.0  3.0  1.0  1.0  2.0
+r_s  1.0  2.0  2.0  1.0  3.0  2.0  1.0  6.0  1.0
+p_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  2.0
+p_p  1.0  2.0  2.0  1.0  1.0  1.0  1.0  1.0  4.0
+p_s  1.0  2.0  1.0  2.0  1.0  3.0  1.0  2.0  1.0
+s_r  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0
+s_p  1.0  2.0  6.0  1.0  2.0  1.0  1.0  1.0  4.0
+s_s  1.0  2.0  2.0  1.0  2.0  1.0  1.0  6.0  1.0
+-----------------------------------------------------------------
